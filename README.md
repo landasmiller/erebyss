@@ -1,112 +1,167 @@
 # erebyss
-Erebyss AI — Product Feedback Aggregator
+<h1>Erebyss AI — Product Feedback Aggregator</h1>
 
-Erebyss is an AI-powered product intelligence platform that transforms scattered customer feedback into clear product decisions.
+<p>
+  Erebyss is an AI-powered product intelligence platform that transforms scattered customer feedback into clear product decisions.
+</p>
 
-Most teams collect feedback across tools like Zendesk, Slack, email, and surveys. The problem is not collecting feedback. The problem is making sense of it.
+<p>
+  Most teams collect feedback across tools like Zendesk, Slack, email, support tickets, surveys, and community forums.
+  The problem is not collecting feedback. The problem is making sense of it.
+</p>
 
-Erebyss solves that problem by turning raw customer signals into structured outputs that product and business teams can act on immediately.
+<p>
+  Erebyss solves that problem by turning raw customer signals into structured outputs that product and business teams can act on immediately.
+</p>
 
-🚀 What It Does
+<hr />
 
-Erebyss takes in customer feedback and automatically generates:
+<h2>What It Does</h2>
 
-<b>Themes</b> — grouped patterns across feedback
+<p>Erebyss takes in customer feedback and automatically generates:</p>
 
-<b>Insights</b> — clear summaries of customer pain points
+<ul>
+  <li><strong>Themes</strong> — grouped patterns across feedback</li>
+  <li><strong>Insights</strong> — clear summaries of customer pain points</li>
+  <li><strong>Recommendations</strong> — suggested actions tied to each insight</li>
+  <li><strong>Impact Scoring</strong> — priority, effort, revenue risk, and customer segment</li>
+  <li><strong>Roadmap</strong> — ranked product initiatives</li>
+  <li><strong>Revenue Impact Summary</strong> — highlights what is actually costing the business</li>
+</ul>
 
-<b>Recommendations</b> — suggested actions tied to each insight
+<p>
+  Instead of reading hundreds of comments, teams get:
+</p>
 
-<b>Impact Scoring</b> — priority, effort, revenue risk, and customer segment
+<blockquote>
+  “Here are your biggest problems, here is what to fix, and here is what it’s costing you.”
+</blockquote>
 
-<b>Roadmap</b> — ranked product initiatives
+<hr />
 
-Revenue Impact Summary — highlights what is actually costing the business
+<h2>Why It Matters</h2>
 
-Instead of reading hundreds of comments, teams get:
+<p>Product teams often struggle with:</p>
 
-“Here are your biggest problems, here is what to fix, and here is what it’s costing you.”
+<ul>
+  <li>Too much feedback and not enough clarity</li>
+  <li>Sales and product misalignment</li>
+  <li>Unclear prioritization</li>
+  <li>Guessing what actually impacts revenue</li>
+</ul>
 
-🧠 Why It Matters
+<p>
+  Erebyss bridges that gap by connecting:
+</p>
 
-Product teams often struggle with:
+<pre><code>Customer Feedback → Product Decisions → Business Impact</code></pre>
 
-Too much feedback and not enough clarity
+<hr />
 
-Sales and product misalignment
+<h2>How It Works</h2>
 
-Unclear prioritization
+<ol>
+  <li>
+    <strong>Preprocess</strong><br />
+    Cleans and structures raw feedback.
+  </li>
+  <li>
+    <strong>Theme Extraction</strong><br />
+    Groups feedback into meaningful clusters.
+  </li>
+  <li>
+    <strong>Insight Generation</strong><br />
+    Summarizes key problems and recommendations.
+  </li>
+  <li>
+    <strong>Scoring Layer</strong><br />
+    Adds:
+    <ul>
+      <li><code>impact_score</code></li>
+      <li><code>effort_estimate</code></li>
+      <li><code>customer_segment</code></li>
+      <li><code>revenue_risk</code></li>
+    </ul>
+  </li>
+  <li>
+    <strong>Roadmap Agent</strong><br />
+    Converts insights into prioritized initiatives.
+  </li>
+  <li>
+    <strong>Revenue Impact Layer</strong><br />
+    Surfaces high-risk issues and top blockers.
+  </li>
+</ol>
 
-Guessing what actually impacts revenue
+<hr />
 
-Erebyss bridges that gap by connecting:
+<h2>Example Output</h2>
 
-Customer Feedback → Product Decisions → Business Impact
-🏗️ How It Works
-
-Preprocess
-
-Cleans and structures raw feedback
-
-Theme Extraction
-
-Groups feedback into meaningful clusters
-
-Insight Generation
-
-Summarizes key problems and recommendations
-
-Scoring Layer
-
-Adds:
-
-impact_score
-
-effort_estimate
-
-customer_segment
-
-revenue_risk
-
-Roadmap Agent
-
-Converts insights into prioritized initiatives
-
-Revenue Impact Layer
-
-Surfaces high-risk issues and top blockers
-
-💡 Example Output
-
-Insight
+<p><strong>Insight</strong><br />
 Users are experiencing delays due to slow dashboard updates and unreliable API refresh.
+</p>
 
-Roadmap Item
-Improve dashboard performance and API reliability
+<p><strong>Roadmap Item</strong><br />
+Improve dashboard performance and API reliability.
+</p>
 
-Revenue Impact
-High risk — impacting onboarding and enterprise adoption
+<p><strong>Revenue Impact</strong><br />
+High risk — impacting onboarding and enterprise adoption.
+</p>
 
-🧩 Tech Stack
+<hr />
 
-FastAPI (backend API)
+<h2>Tech Stack</h2>
 
-Supabase (database + storage)
+<ul>
+  <li><strong>FastAPI</strong> — backend API</li>
+  <li><strong>Supabase</strong> — database and storage</li>
+  <li><strong>Next.js</strong> — frontend</li>
+  <li><strong>Python</strong> — LLM and processing pipeline</li>
+</ul>
 
-Next.js (frontend)
+<hr />
 
-Python (LLM + processing pipeline)
+<h2>Vision</h2>
 
-🎯 Vision
+<p>
+  Erebyss is building toward becoming the system of record for:
+</p>
 
-Erebyss is building toward becoming the system of record for:
+<ul>
+  <li>Product prioritization</li>
+  <li>Sales blocker detection</li>
+  <li>Customer-driven roadmap generation</li>
+</ul>
 
-Product prioritization
+<p>
+  The long-term goal is simple:
+</p>
 
-Sales blocker detection
+<blockquote>
+  Help companies understand what to build next, based on real customer signals and real business impact.
+</blockquote>
 
-Customer-driven roadmap generation
+<hr />
 
-The long-term goal is simple:
+<h2>Current MVP Capabilities</h2>
 
-Help companies understand what to build next, based on real customer signals and real business impact.
+<ul>
+  <li>One-click analysis pipeline</li>
+  <li>Automated preprocess, themes, insights, and roadmap generation</li>
+  <li>Impact and revenue-risk scoring</li>
+  <li>Evidence-backed recommendations</li>
+  <li>Roadmap ranking based on customer signals</li>
+</ul>
+
+<hr />
+
+<h2>Future Direction</h2>
+
+<ul>
+  <li>Sales blocker intelligence engine</li>
+  <li>Competitive intelligence analysis</li>
+  <li>Trend detection across runs</li>
+  <li>Slack, Notion, and Jira integrations</li>
+  <li>Executive-level product health dashboards</li>
+</ul>
